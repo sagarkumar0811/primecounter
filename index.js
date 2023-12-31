@@ -17,7 +17,7 @@ function getPrimesInRange(m, n) {
         }
     }
 
-    // get the number of primes in the range [m, n]
+    // get list of primes in given range from m to n where both are inclusive
     const primes = [];
     for (let i = Math.max(2, m); i <= n; i++) {
         if (isPrime[i]) {
