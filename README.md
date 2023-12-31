@@ -11,9 +11,6 @@ npm install -g primecounter
 
 # Usage
 
-## You can use this package as mentioned below.
-
-```bash
 const primeCounter = require('primecounter');
 
 const listOfPrimes = primeCounter(1,20);
