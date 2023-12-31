@@ -1,6 +1,6 @@
 {
   "name": "primecounter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple npm package to count prime numbers within a given range.",
   "main": "index.js",
   "scripts": {
