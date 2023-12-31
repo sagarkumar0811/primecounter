@@ -4,12 +4,10 @@ A simple npm package to count prime numbers within a given range.
 
 ## Installation
 
-Install the package globally using npm:
+Install the package globally using npm and use it like the example given below:
 
 ```bash
 npm install -g primecounter
-
-# Usage
 
 const primeCounter = require('primecounter');
 
