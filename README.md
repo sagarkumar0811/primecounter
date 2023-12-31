@@ -9,9 +9,9 @@ Install the package globally using npm:
 ```bash
 npm install -g primecounter
 
-## Usage
+# Usage
 
-You can use this package as mentioned below.
+## You can use this package as mentioned below.
 
 ```bash
 const primeCounter = require('primecounter');
@@ -20,10 +20,8 @@ const listOfPrimes = primeCounter(1,20);
 
 console.log(listOfPrimes);
 
-/*
-output
-[
-   2,  3,  5,  7,
-  11, 13, 17, 19
-]
-*/
+# Output:
+# [
+#    2,  3,  5,  7,
+#   11, 13, 17, 19
+# ]
