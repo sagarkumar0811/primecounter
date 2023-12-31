@@ -18,14 +18,14 @@ function getPrimesInRange(m, n) {
     }
 
     // get list of primes in given range from m to n where both are inclusive
-    const primes = [];
+    const listOfPrimes = [];
     for (let i = Math.max(2, m); i <= n; i++) {
         if (isPrime[i]) {
-            primes.push(i);
+            listOfPrimes.push(i);
         }
     }
 
-    return primes;
+    return listOfPrimes;
 }
 
 module.exports = getPrimesInRange;

@@ -1,5 +1,5 @@
-const primeCounter = require('./index');
+const primecounter = require('./index');
 
-const listOfPrimes = primeCounter(1,20);
+const listOfPrimes = primecounter(1,20);
 
 console.log(listOfPrimes);
